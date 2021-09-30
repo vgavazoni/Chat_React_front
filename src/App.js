@@ -8,7 +8,7 @@ let socket;
 
 function App() {
 
-  const ENDPOINT = "http://localhost:8080/";  // Aqui faz a ligação com o backend
+  const ENDPOINT = "https://chat-back-vini.herokuapp.com:8080/";  // Aqui faz a ligação com o backend
 
   const [logado, setLogado] = useState(false);
   const [nome, setNome] = useState("");
